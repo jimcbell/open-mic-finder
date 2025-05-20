@@ -1,6 +1,5 @@
 import express, { Router } from 'express';
-import { createVenue, deleteVenue, listVenues } from '../services/venues.js';
-import { VenueModel } from '../services/types.js';
+import venueRouter from './venues.js';
 
 const router: Router = express.Router();
 
@@ -8,21 +7,6 @@ router.get('/api/status', (req, res) => {
   res.json({ status: 'API is running' });
 });
 
-router.get('/api/venues', async (req, res) => {
-  let venues = await listVenues();
-  res.json(venues);
-});
-router.post('/api/venues', async (req, res) => {
-  console.log(req.body);
-  let venue = (await req.body) as VenueModel;
-  await createVenue(venue);
-  res.json();
-});
-router.delete('/api/venues/{:id}', async (req, res) => {
-  console.log('deleting');
-  let id = req.params.id as string;
-  await deleteVenue(id);
-  res.json();
-});
+router.use('/api/venues', venueRouter);
 
 export default router;

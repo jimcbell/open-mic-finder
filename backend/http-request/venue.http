@@ -1,0 +1,16 @@
+GET http://localhost:3000/api/venues
+
+###
+POST http://localhost:3000/api/venues
+Content-Type: application/json
+
+{
+    "name": "Riverside Poetry Lounge",
+    "phoneNumber": "(347) 555-6132",
+    "frequency": "Weekly",
+    "signUpTime": "6:30 PM",
+    "startTime": "7:15 PM",
+    "endTime": "10:00 PM",
+    "ageVerification": false,
+    "address": "253 W 72nd St, New York, NY 10023"
+}
