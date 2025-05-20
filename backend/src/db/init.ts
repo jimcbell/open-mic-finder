@@ -1,0 +1,11 @@
+import mongoose from 'mongoose';
+
+export function initDatabase(): Promise<typeof mongoose> {
+  let DATABASE_URL: string = process.env.DATABASE_URL as string;
+  mongoose.connection.on('open', () => {
+    console.info('successfully connected:', DATABASE_URL);
+  });
+  console.log(DATABASE_URL);
+  const connection = mongoose.connect(DATABASE_URL);
+  return connection;
+}
