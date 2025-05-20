@@ -1,5 +1,5 @@
 import express, { Router } from 'express';
-import { createVenue, listVenues } from '../services/venues.js';
+import { createVenue, deleteVenue, listVenues } from '../services/venues.js';
 import { VenueModel } from '../services/types.js';
 
 const router: Router = express.Router();
@@ -19,7 +19,8 @@ router.post('/api/venues', async (req, res) => {
   res.json();
 });
 router.delete('/api/venues/{:id}', async (req, res) => {
-  let id = req.params.id;
+  console.log('deleting');
+  let id = req.params.id as string;
   await deleteVenue(id);
   res.json();
 });

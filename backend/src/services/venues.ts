@@ -19,5 +19,5 @@ export async function createVenue(venue: VenueModel) {
 }
 
 export async function deleteVenue(id: string) {
-  return await Venue.deleteOne({ id: id });
+  return await Venue.deleteOne({ _id: id });
 }
