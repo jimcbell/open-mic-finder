@@ -1,6 +1,6 @@
 import express, { Request, Response } from 'express';
 import { createVenue, deleteVenue, listVenues } from '../controller/venues.js';
-import { VenueModel } from '../models/venue.js';
+import { VenueViewModel } from '@shared/types/VenueViewModel.js';
 
 const venueRouter = express.Router();
 
@@ -10,7 +10,7 @@ venueRouter.get('', async (req: Request, res: Response) => {
 });
 
 venueRouter.post('', async (req: Request, res: Response) => {
-  let json = (await req.body) as VenueModel;
+  let json = (await req.body) as VenueViewModel;
   try {
     let venue = await createVenue(json);
     res.status(202).json(venue).end();

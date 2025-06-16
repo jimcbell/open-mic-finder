@@ -1,0 +1,12 @@
+GET http://localhost:3000/api/reviews
+###
+POST http://localhost:3000/api/reviews/
+Content-Type: application/json
+
+{
+    "venueId":"6843306ad582985bc75d9fff",
+    "firstName":"James",
+    "lastName":"Campbell",
+    "rating":4,
+    "review":"It was pretty good, not too sure"
+}

@@ -14,15 +14,4 @@ const venueSchema = new Schema(
   { timestamps: true },
 );
 
-export type VenueModel = {
-  name: string;
-  phoneNumber: string;
-  frequency: string;
-  signUpTime: string;
-  startTime: string;
-  endTime: string;
-  ageVerification: Boolean;
-  address: string;
-};
-
 export const Venue = mongoose.model('venue', venueSchema);

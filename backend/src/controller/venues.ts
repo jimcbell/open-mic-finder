@@ -1,10 +1,11 @@
-import { Venue, VenueModel } from '../models/venue.js';
+import { Venue } from '../models/venue.js';
+import { VenueViewModel } from './../../../shared/types/VenueViewModel.js';
 
 export async function listVenues() {
   return await Venue.find();
 }
 
-export async function createVenue(venueModel: VenueModel) {
+export async function createVenue(venueModel: VenueViewModel) {
   let venue = new Venue({
     ...venueModel,
   });
