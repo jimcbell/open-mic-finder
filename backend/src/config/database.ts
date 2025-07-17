@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
-export function initDatabase(): Promise<typeof mongoose> {
-  let DATABASE_URL: string = process.env.DATABASE_URL as string;
+export function initDatabase(connectionString : string | undefined = undefined): Promise<typeof mongoose> {
+  let DATABASE_URL: string = connectionString ?? process.env.DATABASE_URL as string;
   mongoose.connection.on('open', () => {
     console.info('successfully connected:', DATABASE_URL);
   });

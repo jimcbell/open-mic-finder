@@ -5,7 +5,6 @@ import { VenueViewModel } from '../../../shared/types/VenueViewModel.js';
 const venueRouter = express.Router();
 
 venueRouter.get('', async (req: Request, res: Response) => {
-  console.log('in route')
   let venues = await listVenues();
   res.json(venues);
 });

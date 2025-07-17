@@ -5,12 +5,138 @@ POST http://localhost:3000/api/venues
 Content-Type: application/json
 
 {
-    "name": "Riverside Poetry Lounge",
-    "phoneNumber": "(347) 555-6132",
+    "name": "The Laughing Goat",
+    "phoneNumber": "(212) 555-0198",
+    "frequency": "Monthly",
+    "signUpTime": "7:00 PM",
+    "startTime": "8:00 PM",
+    "endTime": "11:00 PM",
+    "ageVerification": true,
+    "address": "1700 Broadway, New York, NY 10019"
+}
+###
+POST http://localhost:3000/api/venues
+Content-Type: application/json
+
+{
+    "name": "Blue Note Café",
+    "phoneNumber": "(646) 321-4455",
     "frequency": "Weekly",
-    "signUpTime": "6:30 PM",
-    "startTime": "7:15 PM",
+    "signUpTime": "5:30 PM",
+    "startTime": "6:00 PM",
+    "endTime": "9:00 PM",
+    "ageVerification": false,
+    "address": "131 W 3rd St, New York, NY 10012"
+}
+###
+POST http://localhost:3000/api/venues
+Content-Type: application/json
+
+{
+    "name": "Brooklyn Beats Bar",
+    "phoneNumber": "(718) 555-8822",
+    "frequency": "Biweekly",
+    "signUpTime": "6:00 PM",
+    "startTime": "7:00 PM",
+    "endTime": "10:30 PM",
+    "ageVerification": true,
+    "address": "45 Wyckoff Ave, Brooklyn, NY 11237"
+}
+###
+POST http://localhost:3000/api/venues
+Content-Type: application/json
+
+{
+    "name": "Harlem House Lounge",
+    "phoneNumber": "(917) 234-5678",
+    "frequency": "Weekly",
+    "signUpTime": "8:00 PM",
+    "startTime": "8:30 PM",
+    "endTime": "12:00 AM",
+    "ageVerification": false,
+    "address": "2367 Adam Clayton Powell Jr Blvd, New York, NY 10030"
+}
+###
+POST http://localhost:3000/api/venues
+Content-Type: application/json
+
+{
+    "name": "The Green Room",
+    "phoneNumber": "(347) 987-6543",
+    "frequency": "Monthly",
+    "signUpTime": "6:45 PM",
+    "startTime": "7:30 PM",
+    "endTime": "10:00 PM",
+    "ageVerification": true,
+    "address": "22-25 Jackson Ave, Long Island City, NY 11101"
+}
+###
+POST http://localhost:3000/api/venues
+Content-Type: application/json
+
+{
+    "name": "Uptown Stage Pub",
+    "phoneNumber": "(212) 333-1212",
+    "frequency": "Weekly",
+    "signUpTime": "7:15 PM",
+    "startTime": "8:00 PM",
+    "endTime": "11:00 PM",
+    "ageVerification": false,
+    "address": "501 W 145th St, New York, NY 10031"
+}
+###
+POST http://localhost:3000/api/venues
+Content-Type: application/json
+
+{
+    "name": "The Rusty Microphone",
+    "phoneNumber": "(646) 888-7777",
+    "frequency": "Biweekly",
+    "signUpTime": "5:00 PM",
+    "startTime": "6:00 PM",
+    "endTime": "9:00 PM",
+    "ageVerification": true,
+    "address": "88 7th Ave, Brooklyn, NY 11215"
+}
+###
+POST http://localhost:3000/api/venues
+Content-Type: application/json
+
+{
+    "name": "Village Vinyl Lounge",
+    "phoneNumber": "(917) 555-4321",
+    "frequency": "Monthly",
+    "signUpTime": "6:00 PM",
+    "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "ageVerification": false,
-    "address": "253 W 72nd St, New York, NY 10023"
+    "address": "123 MacDougal St, New York, NY 10012"
+}
+###
+POST http://localhost:3000/api/venues
+Content-Type: application/json
+
+{
+    "name": "Astoria Arts Café",
+    "phoneNumber": "(718) 222-3333",
+    "frequency": "Weekly",
+    "signUpTime": "7:30 PM",
+    "startTime": "8:00 PM",
+    "endTime": "11:30 PM",
+    "ageVerification": false,
+    "address": "30-01 36th Ave, Astoria, NY 11106"
+}
+###
+POST http://localhost:3000/api/venues
+Content-Type: application/json
+
+{
+    "name": "The Open Stage Tavern",
+    "phoneNumber": "(212) 444-5555",
+    "frequency": "Biweekly",
+    "signUpTime": "6:30 PM",
+    "startTime": "7:00 PM",
+    "endTime": "10:00 PM",
+    "ageVerification": true,
+    "address": "200 E 3rd St, New York, NY 10009"
 }

@@ -3,11 +3,11 @@
   background-color: #145467; /* Dark teal background */
   border-radius: 8px;
   padding: 16px;
-  margin-bottom: 16px;
   color: white;
   width: 100%;
   max-width: 320px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0px auto 16px;
 }
 
 .venue-header {
@@ -84,4 +84,15 @@
   font-size: 0.9rem;
   text-align: center;
   margin-top: 12px;
+}
+.container {
+  width: 100%;
+}
+.title{
+  color: white;
+  border: 10px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  width: 800px;
+  max-width: 1400px;
 }
