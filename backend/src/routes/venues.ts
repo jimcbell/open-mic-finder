@@ -1,10 +1,11 @@
 import express, { Request, Response } from 'express';
 import { createVenue, deleteVenue, listVenues } from '../controller/venues.js';
-import { VenueViewModel } from '@shared/types/VenueViewModel.js';
+import { VenueViewModel } from '../../../shared/types/VenueViewModel.js';
 
 const venueRouter = express.Router();
 
 venueRouter.get('', async (req: Request, res: Response) => {
+  console.log('in route')
   let venues = await listVenues();
   res.json(venues);
 });

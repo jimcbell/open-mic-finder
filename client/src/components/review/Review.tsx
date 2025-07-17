@@ -1,4 +1,4 @@
-import type { ReviewViewModel } from '../../../shared/types/ReviewViewModel.ts';
+import type { ReviewViewModel } from '../../../../shared/types/ReviewViewModel.ts';
 
 export default function Review(props: ReviewViewModel) {
   return (

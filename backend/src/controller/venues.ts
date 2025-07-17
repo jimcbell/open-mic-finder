@@ -2,6 +2,7 @@ import { Venue } from '../models/venue.js';
 import { VenueViewModel } from './../../../shared/types/VenueViewModel.js';
 
 export async function listVenues() {
+  console.log(Venue);
   return await Venue.find();
 }
 

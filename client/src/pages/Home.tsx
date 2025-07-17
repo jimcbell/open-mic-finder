@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import VenueList from '../components/venue/VenueList';
 import { getVenues } from '../api/venues';
-import type { VenueViewModel } from '../../shared/types/VenueViewModel';
+import type { VenueViewModel } from '../../../shared/types/VenueViewModel';
 
 export default function Home() {
   const venuesQuery = useQuery({
@@ -10,6 +10,6 @@ export default function Home() {
   });
 
   const venues: VenueViewModel[] = venuesQuery.data ?? [];
-
+  console.log(venues);
   return <VenueList venues={venues} />;
 }

@@ -2,9 +2,9 @@ import { useQuery } from '@tanstack/react-query';
 import './Venue.css';
 import ReviewList from '../review/ReviewList.tsx';
 import { getReviews } from '../../api/reviews.ts';
-import type { VenueViewModel } from '../../../shared/types/VenueViewModel.ts';
+import type { VenueViewModel } from '../../../../shared/types/VenueViewModel.ts';
 import { ChevronDown } from 'lucide-react';
-import type { ReviewViewModel } from '../../../shared/types/ReviewViewModel.ts';
+import type { ReviewViewModel } from '../../../../shared/types/ReviewViewModel.ts';
 
 export default function Venue(props: VenueViewModel) {
   const reviewQuery = useQuery({

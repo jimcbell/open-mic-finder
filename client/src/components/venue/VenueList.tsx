@@ -1,4 +1,4 @@
-import type { VenueViewModel } from '../../../shared/types/VenueViewModel';
+import type { VenueViewModel } from '../../../../shared/types/VenueViewModel';
 import Venue from './Venue';
 
 // Option 1: Explicitly define the props interface

@@ -1,4 +1,4 @@
-import type { ReviewViewModel } from '../../../shared/types/ReviewViewModel';
+import type { ReviewViewModel } from '../../../../shared/types/ReviewViewModel';
 import Review from './Review';
 
 interface ReviewListProps {
