@@ -15,7 +15,7 @@ services:
       - mic-database
   mic-frontend:
     build:
-      context: .
+      context: /client
       args:
         VITE_BACKEND_URL: http://localhost:3001/api/v1
     ports:
