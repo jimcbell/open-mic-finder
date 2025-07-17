@@ -10,6 +10,9 @@ export default function Home() {
   });
 
   const venues: VenueViewModel[] = venuesQuery.data ?? [];
-  console.log(venues);
-  return <VenueList venues={venues} />;
+  return (
+  <div className='venue-section'>
+    <VenueList venues={venues} />
+    </div>
+  )
 }

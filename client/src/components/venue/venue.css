@@ -96,3 +96,9 @@
   width: 800px;
   max-width: 1400px;
 }
+.type-container {
+  margin: 20px auto;
+}
+.type-container button {
+  margin: 5px;
+}

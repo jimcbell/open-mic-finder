@@ -10,6 +10,7 @@ const venueSchema = new Schema(
     endTime: { type: String },
     ageVerification: { type: Boolean, required: true },
     address: { type: String, required: true },
+    type: {type: String, required: true, enum: ['Music', 'Comedy', 'Poetry', 'Drama'] }
   },
   { timestamps: true },
 );

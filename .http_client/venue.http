@@ -12,7 +12,8 @@ Content-Type: application/json
     "startTime": "8:00 PM",
     "endTime": "11:00 PM",
     "ageVerification": true,
-    "address": "1700 Broadway, New York, NY 10019"
+    "address": "1700 Broadway, New York, NY 10019",
+    "type": "Comedy"
 }
 ###
 POST http://localhost:3000/api/venues
@@ -26,7 +27,8 @@ Content-Type: application/json
     "startTime": "6:00 PM",
     "endTime": "9:00 PM",
     "ageVerification": false,
-    "address": "131 W 3rd St, New York, NY 10012"
+    "address": "131 W 3rd St, New York, NY 10012",
+    "type": "Music"
 }
 ###
 POST http://localhost:3000/api/venues
@@ -40,7 +42,8 @@ Content-Type: application/json
     "startTime": "7:00 PM",
     "endTime": "10:30 PM",
     "ageVerification": true,
-    "address": "45 Wyckoff Ave, Brooklyn, NY 11237"
+    "address": "45 Wyckoff Ave, Brooklyn, NY 11237",
+    "type": "Music"
 }
 ###
 POST http://localhost:3000/api/venues
@@ -54,7 +57,8 @@ Content-Type: application/json
     "startTime": "8:30 PM",
     "endTime": "12:00 AM",
     "ageVerification": false,
-    "address": "2367 Adam Clayton Powell Jr Blvd, New York, NY 10030"
+    "address": "2367 Adam Clayton Powell Jr Blvd, New York, NY 10030",
+    "type": "Poetry"
 }
 ###
 POST http://localhost:3000/api/venues
@@ -68,7 +72,8 @@ Content-Type: application/json
     "startTime": "7:30 PM",
     "endTime": "10:00 PM",
     "ageVerification": true,
-    "address": "22-25 Jackson Ave, Long Island City, NY 11101"
+    "address": "22-25 Jackson Ave, Long Island City, NY 11101",
+    "type": "Drama"
 }
 ###
 POST http://localhost:3000/api/venues
@@ -82,7 +87,8 @@ Content-Type: application/json
     "startTime": "8:00 PM",
     "endTime": "11:00 PM",
     "ageVerification": false,
-    "address": "501 W 145th St, New York, NY 10031"
+    "address": "501 W 145th St, New York, NY 10031",
+    "type": "Comedy"
 }
 ###
 POST http://localhost:3000/api/venues
@@ -96,7 +102,8 @@ Content-Type: application/json
     "startTime": "6:00 PM",
     "endTime": "9:00 PM",
     "ageVerification": true,
-    "address": "88 7th Ave, Brooklyn, NY 11215"
+    "address": "88 7th Ave, Brooklyn, NY 11215",
+    "type": "Poetry"
 }
 ###
 POST http://localhost:3000/api/venues
@@ -110,7 +117,8 @@ Content-Type: application/json
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "ageVerification": false,
-    "address": "123 MacDougal St, New York, NY 10012"
+    "address": "123 MacDougal St, New York, NY 10012",
+    "type": "Music"
 }
 ###
 POST http://localhost:3000/api/venues
@@ -124,7 +132,8 @@ Content-Type: application/json
     "startTime": "8:00 PM",
     "endTime": "11:30 PM",
     "ageVerification": false,
-    "address": "30-01 36th Ave, Astoria, NY 11106"
+    "address": "30-01 36th Ave, Astoria, NY 11106",
+    "type": "Drama"
 }
 ###
 POST http://localhost:3000/api/venues
@@ -138,5 +147,6 @@ Content-Type: application/json
     "startTime": "7:00 PM",
     "endTime": "10:00 PM",
     "ageVerification": true,
-    "address": "200 E 3rd St, New York, NY 10009"
+    "address": "200 E 3rd St, New York, NY 10009",
+    "type": "Comedy"
 }

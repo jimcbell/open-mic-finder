@@ -8,4 +8,5 @@ export type VenueViewModel = {
   endTime: string;
   ageVerification: boolean;
   address: string;
+  type: string;
 };

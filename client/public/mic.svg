@@ -1,0 +1,10 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Microphone Body -->
+  <rect x="8" y="2" width="8" height="12" rx="4" fill="#6B7280"/>
+  <!-- Microphone Top (Grille) -->
+  <path d="M12 2C14.2091 2 16 3.79086 16 6V10C16 12.2091 14.2091 14 12 14C9.79086 14 8 12.2091 8 10V6C8 3.79086 9.79086 2 12 2Z" fill="#9CA3AF"/>
+  <!-- Microphone Stand/Handle -->
+  <rect x="11" y="14" width="2" height="6" rx="1" fill="#6B7280"/>
+  <!-- Base of the stand -->
+  <circle cx="12" cy="21" r="2" fill="#4B5563"/>
+</svg>

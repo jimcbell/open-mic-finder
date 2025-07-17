@@ -4,9 +4,108 @@ POST http://localhost:3000/api/reviews/
 Content-Type: application/json
 
 {
-    "venueId":"6843306ad582985bc75d9fff",
-    "firstName":"James",
-    "lastName":"Campbell",
-    "rating":4,
-    "review":"It was pretty good, not too sure"
+    "venueId": "68786f5293c7129a0107fed3",
+    "firstName": "Maria",
+    "lastName": "Smith",
+    "rating": 5,
+    "review": "Amazing comedy night! The crowd was lively and the host was hilarious."
+}
+###
+POST http://localhost:3000/api/reviews/
+Content-Type: application/json
+
+{
+    "venueId": "68786f5493c7129a0107fed5",
+    "firstName": "Alex",
+    "lastName": "Johnson",
+    "rating": 4,
+    "review": "Great music and friendly staff. Would come again!"
+}
+###
+POST http://localhost:3000/api/reviews/
+Content-Type: application/json
+
+{
+    "venueId": "68786f5593c7129a0107fed7",
+    "firstName": "Sophie",
+    "lastName": "Lee",
+    "rating": 5,
+    "review": "Loved the vibe and the variety of acts. Perfect for a night out."
+}
+###
+POST http://localhost:3000/api/reviews/
+Content-Type: application/json
+
+{
+    "venueId": "68786f5893c7129a0107fed9",
+    "firstName": "Chris",
+    "lastName": "Brown",
+    "rating": 3,
+    "review": "Poetry night was inspiring, but the place got a bit crowded."
+}
+###
+POST http://localhost:3000/api/reviews/
+Content-Type: application/json
+
+{
+    "venueId": "68786f5a93c7129a0107fedb",
+    "firstName": "Taylor",
+    "lastName": "Garcia",
+    "rating": 4,
+    "review": "Drama performances were top-notch. Drinks were reasonably priced."
+}
+###
+POST http://localhost:3000/api/reviews/
+Content-Type: application/json
+
+{
+    "venueId": "68786f5c93c7129a0107fedd",
+    "firstName": "Jordan",
+    "lastName": "Martinez",
+    "rating": 5,
+    "review": "Comedy night was a blast! Will definitely return."
+}
+###
+POST http://localhost:3000/api/reviews/
+Content-Type: application/json
+
+{
+    "venueId": "68786f5e93c7129a0107fedf",
+    "firstName": "Morgan",
+    "lastName": "Davis",
+    "rating": 4,
+    "review": "Poetry readings were moving. The atmosphere was cozy."
+}
+###
+POST http://localhost:3000/api/reviews/
+Content-Type: application/json
+
+{
+    "venueId": "68786f6093c7129a0107fee1",
+    "firstName": "Casey",
+    "lastName": "Clark",
+    "rating": 5,
+    "review": "Live music was fantastic. Great spot for local talent."
+}
+###
+POST http://localhost:3000/api/reviews/
+Content-Type: application/json
+
+{
+    "venueId": "68786f6293c7129a0107fee3",
+    "firstName": "Robin",
+    "lastName": "Lewis",
+    "rating": 4,
+    "review": "Drama night was entertaining. Staff was very welcoming."
+}
+###
+POST http://localhost:3000/api/reviews/
+Content-Type: application/json
+
+{
+    "venueId": "68786f6493c7129a0107fee5",
+    "firstName": "James",
+    "lastName": "Campbell",
+    "rating": 5,
+    "review": "Comedy acts were hilarious and the drinks were great!"
 }

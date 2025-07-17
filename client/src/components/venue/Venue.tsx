@@ -11,7 +11,6 @@ export default function Venue(props: VenueViewModel) {
     queryKey: ['reviews', props._id],
     queryFn: () => getReviews(props._id),
   });
-  console.log('helooooo');
   const reviews: ReviewViewModel[] = reviewQuery.data ?? [];
   // Generate star ratings - You might want to calculate this based on actual review data
   const renderStars = () => {
